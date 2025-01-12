@@ -7,20 +7,58 @@ theme = 'typo'
 path = "github.com/tomfran/typo"
 
 [params]
-homeIntroTitle = 'Hi!'
+theme = 'auto'
+colorPalette = 'default'
+showFooter = true
+footerContent = "Kunal Bhadra © 2025"
+
+homeIntroTitle = 'Dev, Data & Detours'
 
 homeIntroContent = """
-I am an Italian Software Engineer with a strong foundation in computer science and a passion for solving complex problems. 
-I am interested in a range of topics, including algorithms, distributed systems, databases, and information retrieval.
+Hey, I’m a 20-something year old tech enthusiast.
+I enjoy pushing the limits of what’s possible—whether it’s self-hosting a Google Photos alternative on my 2013 laptop 
+or covering 300km by motorcycle in one day.  
+
+By day, I’m a Data Scientist at [PhonePe](https://www.phonepe.com/), building models and backend systems for targeted ads. 
+I work with Python, Spark, and Hadoop for data processing and modeling, and I’m also exploring Java-based frameworks like Spring Boot.
+
+This platform will be used to document my [professional journey](/work), share [project updates](/projects), and provide resources for fellow tech and DIY enthusiasts.  
+
+Feel free to explore my work and email me at [kunalbhadra.cs@gmail.com](mailto:kunalbhadra.cs@gmail.com).
 """
 
-homeCollectionTitle = 'Posts'
-homeCollection = 'posts'
+
+[[params.menu]]
+name = "home"
+url = "/"
+
+[[params.menu]]
+name = "work"
+url = "/work"
+
+[[params.menu]]
+name = "projects"
+url = "/projects"
+
+[[params.menu]]
+name = "more"
+url = "/more"
+
+
+[[params.social]]
+name = "github"
+url = "https://github.com/kunal-bhadra"
+
+[[params.social]]
+name = "x"
+url = "https://x.com/itskunalbhadra"
 
 [[params.social]]
 name = "linkedin"
-url = "https://www.linkedin.com/in/user/"
+url = "https://www.linkedin.com/in/kunal-bhadra-cs/"
 
-[[params.social]]
-name = "medium"
-url = "https://medium.com/@user"
+
+[params.umami]
+enable = true
+websiteId = "f2ad00e6-d9bc-4d0c-b672-5ef2a714cad5"
+jsLocation = "https://umanalytics.kunalb.dev/script.js"
