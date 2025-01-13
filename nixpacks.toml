@@ -1,8 +1,8 @@
-[phases.setup]
-aptPkgs = ["hugo"]
+[ providers.hugo ]
+version = "0.140.2"
 
 [ phases.build ]
-cmds = ["hugo --minify"]
+cmds = ["hugo --gc --minify"]
 
 [ environment ]
 HUGO_VERSION = "0.140.2"
