@@ -1,11 +1,11 @@
-[ providers.hugo ]
-version = "0.140.2"
+[phases.setup]
+aptPkgs = ["hugo"]
 
 [ phases.build ]
-cmds = ["hugo --gc --minify"]
+cmds = ["hugo --minify"]
 
 [ environment ]
-HUGO_VERSION = "0.140.2"
+HUGO_VERSION = "0.112.3"
 
 [[ nixpacks.included_files ]]
 paths = ["/public"]
