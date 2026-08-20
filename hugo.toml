@@ -1,5 +1,5 @@
 baseURL = 'https://kunalb.dev/'
-languageCode = 'en-us'
+locale = "en-us"
 title = 'Kunal Bhadra'
 theme = 'typo'
 [module]
@@ -15,16 +15,15 @@ footerContent = "Kunal Bhadra © 2025"
 homeIntroTitle = 'Dev, Data & Detours'
 
 homeIntroContent = """
-Hey, I’m a 20-something year old tech enthusiast.
-I enjoy pushing the limits of what’s possible—whether it’s self-hosting a Google Photos alternative on my 2013 laptop 
-or covering 300km by motorcycle in one day.  
+Hey, I’m Kunal. I’m a software engineer and tech enthusiast who loves tinkering, building, and pushing limits; 
+whether that's self-hosting services on a 2013 laptop or doing a 300km motorcycle run in a single day.  
 
-By day, I’m a Data Scientist at [PhonePe](https://www.phonepe.com/), building models and backend systems for targeted ads. 
-I work with Python, Spark, and Hadoop for data processing and modeling, and I’m also exploring Java-based frameworks like Spring Boot.
+Professionally, I've worked across software engineering, big data and machine learning, with a background in 
+performance marketing and ad tech at scale.
 
-This platform will be used to document my [professional journey](/work), share [project updates](/projects), and provide resources for fellow tech and DIY enthusiasts.  
+I use this site to document my [projects](/projects), experiments and technical deep-dives.
 
-Feel free to explore my work and email me at [kunalbhadra.cs@gmail.com](mailto:kunalbhadra.cs@gmail.com).
+Feel free to explore, or reach out at [kunalbhadra.cs@gmail.com](mailto:kunalbhadra.cs@gmail.com).
 """
 
 
@@ -32,26 +31,17 @@ Feel free to explore my work and email me at [kunalbhadra.cs@gmail.com](mailto:k
 name = "home"
 url = "/"
 
-[[params.menu]]
-name = "work"
-url = "/work"
 
 [[params.menu]]
 name = "projects"
 url = "/projects"
 
-[[params.menu]]
-name = "more"
-url = "/more"
 
 
 [[params.social]]
 name = "github"
 url = "https://github.com/kunal-bhadra"
 
-[[params.social]]
-name = "x"
-url = "https://x.com/itskunalbhadra"
 
 [[params.social]]
 name = "linkedin"
